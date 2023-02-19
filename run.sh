@@ -1,4 +1,4 @@
 #!/bin/bash
 set -e
-startup.sh
+$TOMCAT_HOME/bin/startup.sh
 tail -f /dev/null
